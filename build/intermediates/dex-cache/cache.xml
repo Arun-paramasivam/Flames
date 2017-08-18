@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ashwin-4529/Downloads/Flames/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="abd93e8a92fbfa7ad2dc31c292d79b0f21f0090b">
+        <dex dex="/Users/ashwin-4529/Downloads/Flames/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4167e29b5a7a75acc6d445c227e09ff50c713f69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ashwin-4529/Downloads/Flames/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/ashwin-4529/Downloads/Flames/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e2f65157c5e738073fd777e130ec2206b9df4557/classes.dex" />
+    </item>
+
+</items>
