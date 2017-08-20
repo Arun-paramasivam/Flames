@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+//import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,13 +14,14 @@ public class MainActivity extends AppCompatActivity {
     EditText m1;
     EditText m2;
     Button results;
-    TextView txt; //  alt+ enter
+   // TextView txt; //  alt+ enter
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setViews();
+
     }
 
     public void setViews()
@@ -64,15 +65,13 @@ public class MainActivity extends AppCompatActivity {
             FLAMES = FLAMES.substring(cancelLength, FLAMES.length()) + FLAMES.substring(0, cancelLength - 1);
             System.out.println(FLAMES);
         }
-        Toast.makeText(MainActivity.this, FLAMES, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(MainActivity.this, FLAMES, Toast.LENGTH_SHORT).show();
         // Intent class to switch activity or interaction state
         Intent i = new Intent(MainActivity.this, MainActivity2.class);
+        i.putExtra("key",FLAMES);
         startActivity(i);
     }
 }
-
-
-
 
 
 
